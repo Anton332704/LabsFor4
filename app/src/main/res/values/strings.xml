@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">RZHD</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Настройки приложения</string>
+    <string name="send_email">Отправить e-mail</string>
+    <string name="edit">Редактировать</string>
+    <string name="inter_urban_trains">Поезда дальнего следования</string>
+    <string name="sub_urban_trains">Междугородние поезда</string>
+    <string name="send_sms_item">Поделиться смс</string>
+    <string name="special">Дополнительно</string>
+    <string name="check_tickets">Проверить наличие</string>
+    <string name="next">Продолжить</string>
+    <string name="add_ok">Добавлено</string>
+    <string name="list_train">Список поездов</string>
+    <string name="hint_login">Имя</string>
+    <string name="hint_pass">Пароль</string>
+    <string name="special_dop">РЖД настойчиво рекоммендует быть острожным на перездах и соблюдать правила дорожного движения</string>
+
+</resources>

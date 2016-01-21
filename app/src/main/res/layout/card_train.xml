@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    app:cardBackgroundColor="@android:color/holo_orange_light"
+    app:cardCornerRadius="14dp"
+    app:cardElevation="14dp"
+    app:cardUseCompatPadding="true">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/front">
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp">
+
+            <TextView
+                android:id="@+id/TextNameFrom"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_marginTop="10dp"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:textSize="23dp"/>
+            <TextView
+                android:id="@+id/TextTimeStart"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_marginTop="10dp"
+                android:textStyle="bold"
+                android:text="20:00"
+                android:textColor="#000000"
+                android:textSize="23dp"/>
+
+            <TextView
+                android:id="@+id/TextDateStart"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                style="@style/ItemStyle2"
+                android:elevation="10dp"
+                android:text="15.12.2015" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:gravity="center"
+                    android:id="@+id/TextCarriage"
+                    android:layout_width="50dp"
+                    android:layout_height="32dp"
+                    android:textStyle="bold|italic"
+                    android:textSize="21dp"
+                    android:textColor="#000000"
+                    android:layout_marginBottom="10dp" />
+                <TextView
+                    android:id="@+id/TextViewCar"
+                    android:text="вагон"
+                    android:layout_width="match_parent"
+                    android:textStyle="italic"
+                    android:textSize="20dp"
+                    android:textColor="#000000"
+                    android:layout_marginBottom="10dp"
+                    android:layout_height="32dp" />
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="110dp"
+            android:layout_height="match_parent">
+
+
+            <TextView
+                android:id="@+id/TextNameTo"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_marginTop="10dp"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:textSize="23dp"/>
+            <TextView
+                android:id="@+id/TextTimeFinish"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_marginTop="10dp"
+                android:text="20:00"
+                android:textColor="#000000"
+                android:textStyle="bold"
+                android:textSize="23dp"/>
+
+            <TextView
+                android:id="@+id/TextDateFinish"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                style="@style/ItemStyle2"
+                android:elevation="10dp"
+                android:text="15.12.2015" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:gravity="center"
+                    android:id="@+id/TextSit"
+                    android:layout_width="50dp"
+                    android:layout_height="32dp"
+                    android:textStyle="bold|italic"
+                    android:textSize="21dp"
+                    android:layout_marginBottom="10dp" />
+                <TextView
+                    android:id="@+id/TextViewSit"
+                    android:text="место"
+                    android:layout_width="match_parent"
+                    android:textStyle="italic"
+                    android:textSize="20dp"
+                    android:layout_marginBottom="10dp"
+                    android:textColor="#000000"
+                    android:layout_height="32dp" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="3dp">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="№ "
+                    android:textSize="19dp"/>
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/TextNumber"
+                android:text="№"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:textSize="18dp"/>
+            <ImageView
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/sms"
+                android:id="@+id/imageSms"/>
+            <ImageView
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:clickable="true"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/ellip"
+                android:id="@+id/imageDelete"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>

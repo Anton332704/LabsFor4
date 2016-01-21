@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+        android:title="standart">
+
+        <EditTextPreference
+            android:key="address"
+            android:summary="Address for notifications"
+            android:title="Address">
+        </EditTextPreference>
+        <CheckBoxPreference
+            android:key="themeDark"
+            android:summary="Включить темную тему"
+            android:title="Тема приложения">
+        </CheckBoxPreference>
+        <RingtonePreference
+            android:name="Ringtone Preference"
+            android:summary="Select a ringtone"
+            android:title="Ringtones"
+            android:key="ringtonePref" />
+
+</PreferenceCategory>
+    <PreferenceCategory
+        android:title="pro">
+        <SwitchPreference
+            android:title="Супер режим"
+            android:key="switch"
+            />
+        <EditTextPreference
+            android:key="address"
+            android:summary="clear database"
+            android:text="очистить?"
+            android:title="Drop database"
+            android:positiveButtonText="clearDataBase">
+        </EditTextPreference>
+
+        <SwitchPreference
+            android:key="switchView"
+            android:title="Поездки"
+            android:summary="Отображать Поездки" />
+        </PreferenceCategory>
+</PreferenceScreen>

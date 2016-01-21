@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardBackgroundColor="#ffcc77"
+    app:cardCornerRadius="14dp"
+    app:cardElevation="3dp"
+    app:cardUseCompatPadding="true">
+
+    <include
+
+        layout="@layout/back_in_swipe_item">
+
+    </include>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/background_front"
+        android:id="@+id/front">
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp">
+
+            <TextView
+                android:id="@+id/TextNameFrom"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_marginTop="10dp"
+                android:textStyle="bold"
+                android:textSize="23dp"/>
+            <TextView
+                android:id="@+id/TextTimeStart"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_marginTop="10dp"
+                android:textStyle="bold"
+                android:textSize="23dp"/>
+
+            <TextView
+                android:id="@+id/TextDateStart"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:textStyle="bold"
+                android:textSize="23dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/TextCarriage"
+                    android:layout_width="50dp"
+                    android:layout_height="32dp"
+                    android:textStyle="bold|italic"
+                    android:textSize="21dp"
+                    android:layout_marginBottom="10dp" />
+                <TextView
+                    android:id="@+id/TextViewCar"
+                    android:text="вагон"
+                    android:layout_width="match_parent"
+                    android:textStyle="italic"
+                    android:textSize="20dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_height="32dp" />
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="110dp"
+        android:layout_height="match_parent">
+
+
+        <TextView
+            android:id="@+id/TextNameTo"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_marginTop="10dp"
+            android:textStyle="bold"
+            android:textSize="23dp"/>
+        <TextView
+            android:id="@+id/TextTimeFinish"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_marginTop="10dp"
+            android:textStyle="bold"
+            android:textSize="23dp"/>
+
+        <TextView
+            android:id="@+id/TextDateFinish"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:textStyle="bold"
+            android:textSize="23dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/TextSit"
+                android:layout_width="50dp"
+                android:layout_height="32dp"
+                android:textStyle="bold|italic"
+                android:textSize="21dp"
+                android:layout_marginBottom="10dp" />
+            <TextView
+                android:id="@+id/TextViewSit"
+                android:text="место"
+                android:layout_width="match_parent"
+                android:textStyle="italic"
+                android:textSize="20dp"
+                android:layout_marginBottom="10dp"
+                android:layout_height="32dp" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="№ "
+                android:textSize="21dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/TextNumber"
+                android:text="№ "
+                android:textStyle="bold"
+                android:textSize="23dp"/>
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="65dp"
+                android:layout_height="65dp"
+                android:layout_marginTop="20dp"
+                android:id="@+id/imageTrain"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</android.support.v7.widget.CardView>

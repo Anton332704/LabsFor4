@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="ColorEdit">#f4c300</color>
+    <color name="ColorPrimary">#f44336</color>
+    <color name="MyGray">#6c7a89</color>
+    <color name="MyGrayLight">#acbac9</color>
+    <color name="ColorPrimaryDark">#c62828</color>
+
+</resources>
