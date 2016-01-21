@@ -115,6 +115,7 @@ public class MainActivity extends AppCompatActivity {
             Intent intent = new Intent(base, Preferences.class);
             startActivity(intent);
             boolean qw = true;
+            boolean qw4 = true;
             return true;
         }
         return super.onOptionsItemSelected(item);
