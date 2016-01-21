@@ -82,8 +82,8 @@ public class MainActivity extends AppCompatActivity {
                 drawerLayout.closeDrawers();
             }
             int asd = 9;
-            //fgdsfgsdfgsdg
-            //sgfgsdgfsdfgsgfd
+
+            double l = 1000;
         });
     }
 
@@ -115,6 +115,8 @@ public class MainActivity extends AppCompatActivity {
         if (id == R.id.action_settings) {
             Intent intent = new Intent(base, Preferences.class);
             startActivity(intent);
+            boolean qw = true;
+            boolean qw4 = true;
             return true;
         }
         return super.onOptionsItemSelected(item);
