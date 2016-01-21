@@ -114,6 +114,7 @@ public class MainActivity extends AppCompatActivity {
         if (id == R.id.action_settings) {
             Intent intent = new Intent(base, Preferences.class);
             startActivity(intent);
+            boolean qw = true;
             return true;
         }
         return super.onOptionsItemSelected(item);
