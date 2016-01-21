@@ -82,6 +82,7 @@ public class MainActivity extends AppCompatActivity {
                 drawerLayout.closeDrawers();
             }
             int asd = 9;
+            //fgdsfgsdfgsdg
         });
     }
 
